@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <form id="model-type-form">
+        <div>
+            <input type="radio" id="model1"
+                   name="currency1" value="static" checked="true">
+            <label for="model1">Static</label>
+
+            <input type="radio" id="model2"
+                   name="currency1" value="independence">
+            <label for="model2">Independence</label>
+        </div>
+    </form>
+
+    <form id="view-type-form">
+        <div>
+            <input type="radio" id="view1"
+                   name="currency2" value="text" checked="true">
+            <label for="view1">Text</label>
+
+            <input type="radio" id="view2"
+                   name="currency2" value="slider">
+            <label for="view2">Slider</label>
+        </div>
+    </form>
+
+    <div id="render"></div>
+</body>
+<script src="/main.bundle.js"></script>
+</html>

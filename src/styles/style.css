@@ -1,0 +1,8 @@
+.text-view-item-wrap {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 400px;
+    justify-content: space-around;
+}
