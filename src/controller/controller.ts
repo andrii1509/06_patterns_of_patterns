@@ -12,7 +12,7 @@ export class Controller {
   private viewData: ViewDataInterface[];
   private model: StaticModel | IndependenceModel;
 
-  constructor(view: SliderView | TextView, model: any) {
+  constructor(view: SliderView | TextView, model: StaticModel | IndependenceModel) {
     this.view = view;
     this.model = model;
     this.model.gatData().then((data: Array<CurrencyInterface>) => {
